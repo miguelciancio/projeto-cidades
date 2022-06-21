@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+/*
+    Fonts
+*/
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+:root {
+    --font001: Verdana, Geneva, Tahoma, sans-serif;
+    --font002: 'Passion One', cursive;
+}
+/*
+    GLOBAL SETUPS
+*/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: white;
+    font-family: var(--font001);
+    font-size: 1em;
+}
+
+/*
+    HEADER
+*/
+header {
+    background-image: url('../images/wallpaper-global.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 30vh;
+    padding-bottom: 30vh;
+    text-align: center;
+}
+
+div.container {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.801);
+    color: white;
+    padding: 50px;
+
+}
+
+div.container > h1 {
+    font-size: 15vw;
+    font-family: var(--font002);
+    color: white;
+}
+
+div.container > p {
+    font-size: 2vw;
+}

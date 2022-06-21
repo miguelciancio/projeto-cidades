@@ -55,7 +55,7 @@ div.container > h1 {
 }
 
 div.container > p {
-    font-size: 2vw;
+    font-size: 2.2vw;
     font-family: var(--font003);
 }
 
@@ -80,8 +80,32 @@ section {
     padding-top: 30vh;
     padding-bottom: 30vh;
     padding-left: 30px;
+    padding-right: 30px;
     line-height: 2em;
-    font-size: 2vw;
+    font-size: 2.2vw;
+}
+
+section h2 {
+    text-align: center;
+    font-family: var(--font002);
+}
+
+section.image {
+    background-color: rgb(51, 51, 51);
+    color: white;
+}
+
+section.image > h2 {
+    padding: 5px 50px 5px 50px;
+    background-color: rgba(0, 0, 0, 0.514);
+    text-shadow: 1px 1px 0px black;
+}
+
+section.image > p {
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.514);
+    text-shadow: 1px 1px 0px black;
 }
 
 /*

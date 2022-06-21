@@ -3,11 +3,13 @@
 /*
     Fonts
 */
-@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap'); /* TITLES */
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap'); /* QUOTATION */
 
 :root {
     --font001: Verdana, Geneva, Tahoma, sans-serif;
     --font002: 'Passion One', cursive;
+    --font003: 'Courgette', cursive;
 }
 /*
     GLOBAL SETUPS
@@ -22,6 +24,7 @@ html, body {
     background-color: white;
     font-family: var(--font001);
     font-size: 1em;
+    text-align: justify;
 }
 
 /*
@@ -53,4 +56,40 @@ div.container > h1 {
 
 div.container > p {
     font-size: 2vw;
+    font-family: var(--font003);
+}
+
+/*
+    LINKS
+*/
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
+
+/*
+    MAIN
+*/
+section {
+    padding-top: 30vh;
+    padding-bottom: 30vh;
+    padding-left: 30px;
+    line-height: 2em;
+    font-size: 2vw;
+}
+
+/*
+    FOOTER
+*/
+footer {
+    text-align: center;
+    background-color: rgb(95, 94, 94);
+    color: white;
+    padding: 10px;
 }

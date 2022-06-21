@@ -108,6 +108,22 @@ section.image > p {
     text-shadow: 1px 1px 0px black;
 }
 
+section#img01 {
+    background-image: url('../images/wallpaper-ldn.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section#img02 {
+    background-image: url('../images/wallpaper-tko.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 /*
     FOOTER
 */
